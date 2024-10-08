@@ -14,6 +14,22 @@ function luckyDraw(player) {
   });
 }
 
+/*
+andava fatto così
+luckyDraw("Joe")
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.error(err);
+  })
+  .then(()=>luckyDraw('Caroline'))
+  .then((data)=> console.log(data))
+  .catch((err)=> console.error(err))
+  .then(()=>luckyDraw('Sabrina'))
+  .then((data)=> console.log(data))
+  .catch((err)=> console.error(err))
+*/
 luckyDraw("Joe")
   .then((data) => {
     console.log(data);
