@@ -11,8 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+*.zip
 hello.js
 somma.zip
+DB_progetto
 
 # Editor directories and files
 .vscode/*
